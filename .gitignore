@@ -1,2 +1,4 @@
-.vscode\
-Practice questions\
+.vscode/
+Practice questions/
+*.exe
+*.txt
