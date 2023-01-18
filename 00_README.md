@@ -3,7 +3,7 @@
 ## Some of the advantages of C-learning repository:
 ##
 1. There are many comments for better understanding of each and every term.
-2. The program themselves are numbered that makes them all the more arranged and systematic. The testing ones are just the main programming files.
+2. The program themselves are numbered that makes them all the more arranged and systematic. The testing ones are just the programming files in which testing goes on.
 3. The codes are still being updated as we go and new codes are continuously being added.
 
-# So in short The depository is fit for my own personal space and for the beginners also to understand the concepts of c language terms by the easy definitions via commenting. 
+# So in short The repository is fit for my own personal space and for the beginners also to understand the concepts of c language terms by the easy definitions explained via commenting. 
