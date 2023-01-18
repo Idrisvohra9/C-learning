@@ -3,11 +3,12 @@
         {
             "name": "Win32",
             "includePath": [
-                "${default}"
+                "${default}",
+                "C:/MinGW/include/java/awt"
             ],
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64"
+            "intelliSenseMode": "windows-msvc-x86"
         }
     ],
     "version": 4

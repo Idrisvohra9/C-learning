@@ -11,7 +11,7 @@ int main(){
     int choice;
     int x,r;
     float l,b,h,b1,b2;
-    printf("Choose the area of a shape:\n 1. square\n 2. circle\n 3. rectangle\n 4. triangle\n");
+    printf("Choose the area of a shape:\n 1. square\n 2. circle\n 3. rectangle\n 4. triangle\n 5. Trapazeium\n");
     scanf("%d",&choice);
     switch(choice)
     {

@@ -8,7 +8,7 @@ int main(){
     int intcon,choice;
     // while(1)
     // {
-    printf("Enter Your choice of string operation:\n 1. Check string length\n 2. Compare two strings\n 3. Copy string to another variable\n 4. reverse the input string\n 5. Join two strings\n 6. Uppercase The text entered\n 7. Lowercase the text entered\n");
+    println("Enter Your choice of string operation:\n 1. Check string length\n 2. Compare two strings\n 3. Copy string to another variable\n 4. reverse the input string\n 5. Join two strings\n 6. Uppercase The text entered\n 7. Lowercase the text entered\n");
     scanf("%d",&choice);
     switch(choice){
         case 1://1st strlen() is the string inbuilt function that returns the number of characters in the string

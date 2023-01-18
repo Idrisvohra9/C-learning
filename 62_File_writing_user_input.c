@@ -10,6 +10,7 @@ int main( )
     puts ( "Cannot open file" ) ; 
     fclose ( fp ) ;
     }
+    else{
     printf ( "\nEnter a few lines of text:\n" ) ;
     
     while ( strlen (gets(s)) > 0 )
@@ -19,6 +20,7 @@ int main( )
     {
     fputs ( s, fp ) ;// fputs() should be used when dealing with strings and files for the output of strings. And for another data type fprintf can be used but fputs has proven more efficient.
     fputs ( "\n", fp ) ;// this is for new line after every sentence
+    }
     }
     fclose ( fp ) ;
 }
