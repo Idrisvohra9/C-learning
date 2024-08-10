@@ -6,7 +6,9 @@
  */
 
 #include <stdio.h>
+#include <stdbool.h>
 
+// Using the boolean library
 int main()
 {
     // Integer Types
@@ -14,20 +16,26 @@ int main()
     printf("Integer Value: %d\n", integerValue);
 
     // Floating-Point Types
-    float floatValue = 3.14;
+    float floatValue = 3.146;
     double doubleValue = 3.14159265358979;
-    printf("Float Value: %f\n", floatValue);
+    printf("Float Value: %.2f\n", floatValue);
     printf("Double Value: %lf\n", doubleValue);
 
     // Character Type
     char characterValue = 'A';
     printf("Character Value: %c\n", characterValue);
 
+    // String:
+    char strValue[100] = "Hello, Myself Idris!";
+    printf("String Value: %s\n", strValue);
+
     // Boolean Type (represented by int in C)
     int booleanTrue = 1;  // True
     int booleanFalse = 0; // False
     printf("Boolean True: %d\n", booleanTrue);
     printf("Boolean False: %d\n", booleanFalse);
+    bool isTrue = true;
+    printf(isTrue ? "Ha Bhai" : "Na bhai");
     // Type Conversion
     printf("\nType Conversion:\n");
 
@@ -37,18 +45,18 @@ int main()
     printf("Implicit int to float: %f\n", floatResult);
 
     // Explicit conversion (casting)
-    float explicitResult = (float)intValue / 3;
+    float explicitResult = intValue;
     printf("Explicit int to float: %f\n", explicitResult);
 
     // Integer to character
-    int asciiValue = 65;
-    char charFromInt = (char)asciiValue;
+    int asciiValue = 70;
+    char charFromInt = asciiValue;
     printf("Integer %d to character: %c\n", asciiValue, charFromInt);
 
     // Character to integer
     char letter = 'Z';
     int intFromChar = (int)letter;
-    printf("Character '%c' to integer: %d\n", letter, intFromChar);
+    printf("Character '%c' to integer: %d\n", letter, letter);
 
     // Float to integer (truncation)
     float floatNum = 3.99;
