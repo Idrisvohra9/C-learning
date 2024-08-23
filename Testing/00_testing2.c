@@ -1,12 +1,13 @@
-// Arithmetic operators.
 #include <stdio.h>
-#include <math.h>
 
 int main()
 {
-    int i = 10;
-    printf("%f\n", (float)i);
-    printf("%f\n", pow(10, 2));
-
+    int n = 1;
+    do
+    {
+        printf("%d\n", n);
+        n++;
+        break;
+    } while (n < 20);
     return 0;
 }

@@ -1,7 +1,7 @@
 import os
 
-dir_path = r'D:\C-learning'
-file_extenstion = '.exe' # You can change it based on your need. 
+dir_path = r'D:\C'
+file_extenstion = '' # You can change it based on your need. 
 
 for root, _, files in os.walk(dir_path):
     for file in files:
