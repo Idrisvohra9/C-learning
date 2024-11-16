@@ -1,17 +1,14 @@
+// Input/output functions (printf, scanf, etc.)
 #include <stdio.h>
-
-void printDecreasing(int n)
-{
-   if (n == 0)
-   {
-      return;
-   }
-   printf("%d\n", n);
-   printDecreasing(n - 1);
-}
 
 int main()
 {
-   printDecreasing(5);
+
+   int *ptr;
+   int var = 10;
+   ptr = &var;
+   printf("Value of ptr as hexadecimal = %p\n", ptr);
+
+   printf("Value of ptr as an integer = %d\n", ptr);
    return 0;
 }

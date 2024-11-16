@@ -1,10 +1,14 @@
 {
     "C_Cpp.errorSquiggles": "Enabled",
     "files.associations": {
+        "*.embeddedhtml": "html",
         "54_FILE_STUFF2.C": "cpp",
         "stdio.h": "c",
         "windows.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "amvideo.h": "c",
+        "string.h": "c",
+        "stdbool.h": "c"
     },
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.defaultProfile.windows": "PowerShell"

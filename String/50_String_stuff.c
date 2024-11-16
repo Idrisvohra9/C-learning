@@ -6,12 +6,16 @@ int main()
     char str1[20] = "Hello";
     char str2[20] = "World";
     char str3[40];
+    char name[6] = "Idris";
 
+    printf("Name: %s\n", name);
+    // printf("First character: %c\n", name[0]);
     // strlen: Returns the length of a string
     printf("Length of str1: %lu\n", strlen(str1));
 
     // strcpy: Copies one string to another
     strcpy(str3, str1);
+    // strcpy (target, source)
     printf("str3 after strcpy: %s\n", str3);
 
     // strcat: Concatenates (joins) two strings
